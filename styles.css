@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto:wght@300&display=swap");
+
+body {
+  background-color: rgb(73, 195, 195);
+}
+li,
+a,
+button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #3b3b3b;
+  text-decoration: none;
+}
+
+.interface {
+  background-color: #dfdace;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#top {
+  margin-top: 13%;
+}
+.nav_links {
+  list-style: none;
+}
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.nav_links li a {
+  transition: all 0.4s ease 0s;
+}
+.nav_links li a:hover {
+  color: #cfd5a5;
+}
+button {
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+button:hover {
+  background-color: rgba(0, 136, 169, 0.8);
+}
+
+.mask-custom {
+  backdrop-filter: blur(5px);
+  background-color: rgba(154, 154, 63, 0.205);
+}
+.flavors_text {
+  text-align: center;
+  margin-top: 0px;
+  font-family: "Roboto";
+  font-size: 30px;
+}
+#flavors {
+  display: flex;
+  justify-content: center;
+}
+
+.container-flavors {
+  background-color: #ede8db;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#alacarte:hover {
+  background-image: url(IMG-0797.JPG);
+}
+.carousel .carousel-indicators button {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+.carousel-item {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.caro {
+  display: flex;
+  justify-content: left;
+}
+* {
+  box-sizing: border-box;
+}
+.unliwing {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+.chickwings {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 95%;
+  transition: 0.5s ease;
+  opacity: 0;
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+  text-align: center;
+}
+.unliwing:hover .overlay {
+  opacity: 1;
+}
+.menu {
+  font-family: "Montserrat";
+}
+.faq {
+  font-family: "Montserrat";
+  text-align: center;
+}
+.container-footer {
+  background-color: #bf712c;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.footnote {
+  font-size: 12px;
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+}
+.socmed {
+  width: 20px;
+}
+/* .modal li {
+  list-style-position: outside;
+} */

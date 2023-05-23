@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
 
 body {
   background-color: rgb(73, 195, 195);
@@ -131,6 +132,30 @@ button:hover {
 .socmed {
   width: 20px;
 }
-/* .modal li {
-  list-style-position: outside;
-} */
+#contact {
+  font-family: "Dancing Script";
+  text-align: center;
+  margin-top: 15%;
+}
+#help {
+  text-align: center;
+  font-family: "Montserrat";
+}
+#feed {
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 20px;
+}
+.form {
+  border-radius: 15px;
+  text-align: center;
+  align-items: center;
+  width: 180px;
+}
+.message {
+  border-radius: 15px;
+}
+.con-form {
+  display: flex;
+  justify-content: space-evenly;
+}
